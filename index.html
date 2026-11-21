@@ -1,0 +1,237 @@
+<!--
+  CONABREM ENTERPRISE WEBSITE
+
+  Designed and developed by Ernest Botchway.
+  Copyright © 2026 Ernest Botchway.
+
+  This website and its source code, design, layout, and
+  original implementation are protected by applicable
+  copyright laws.
+
+  This version is provided for client preview purposes.
+  Final deliverables and usage rights are subject to
+  the agreed contract and payment terms.
+
+  Unauthorized reproduction, redistribution, or use
+  outside the granted permission is prohibited.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conabrem Enterprise | Premium Wigs</title>
+  <meta name="description" content="Discover beautiful wigs and hair styles at Conabrem Enterprise, Mataheko-Dansoman, opposite Peace Clinic, Accra, Ghana.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="topbar">BEAUTY • CONFIDENCE • QUALITY</div>
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Conabrem Enterprise home"><img src="conabrem-logo-crop.png" alt="Conabrem Enterprise logo"></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://wa.me/233242551367" target="_blank" rel="noopener">Shop on WhatsApp</a>
+        <button class="wishlist-nav-btn" type="button" id="openWishlist">Saved (<span id="wishlistCount">0</span>)</button>
+        <button class="cart-nav-btn" type="button" id="openCart">Cart (<span id="cartCount">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" style="padding:0">
+      <div class="hero-copy">
+        <div class="eyebrow">Conabrem Enterprise • Accra, Ghana</div>
+        <h1>Your Hair.<br><em>Your Confidence.</em></h1>
+        <p>Discover beautiful hair looks made to help you feel elegant, confident and effortlessly yourself. Find a style for every mood, moment and occasion. Delivery arrangements and charges depend on your location.</p>
+        <a class="btn" href="#collection">Explore the collection</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Beauty and hair fashion portrait"></div>
+    </section>
+
+
+    <section id="collection">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div class="eyebrow">The collection</div>
+          <h2>Find Your Signature Look</h2>
+          <p>Browse our featured wig styles. Images are style inspiration—contact us to confirm stock, lengths, colours and prices.</p>
+        </div>
+        <div class="collection-filters" aria-label="Filter wig styles">
+          <button class="filter-btn active" type="button" data-filter="all">All styles</button>
+          <button class="filter-btn" type="button" data-filter="straight">Straight</button>
+          <button class="filter-btn" type="button" data-filter="wave">Waves</button>
+          <button class="filter-btn" type="button" data-filter="curly">Curly</button>
+          <button class="filter-btn" type="button" data-filter="bob">Bob</button>
+          <button class="filter-btn" type="button" data-filter="luxe">Luxury</button>
+        </div>
+        <div class="collection-tools" role="search">
+          <label class="visually-hidden" for="productSearch">Search wig styles</label>
+          <input type="search" id="productSearch" placeholder="Search styles (e.g. curly, bob, wave)" autocomplete="off">
+          <p id="searchResultCount" aria-live="polite">Showing all styles</p>
+        </div>
+        <div class="products">
+          <article class="product-card" data-category="straight">
+            <div class="product-image product-straight" role="img" aria-label="Black model wearing a sleek straight wig"></div>
+            <div class="product-info"><h3>Sleek Straight</h3><p>Classic straight styles with a polished, elegant finish.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Sleek Straight" aria-pressed="false" aria-label="Save Sleek Straight to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Sleek Straight">View Details</button><button class="enquire-btn" type="button" data-product="Sleek Straight">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Sleek Straight">Add to cart</button></div>
+          </article>
+          <article class="product-card" data-category="wave">
+            <div class="product-image product-wave" role="img" aria-label="Black model wearing a body wave wig"></div>
+            <div class="product-info"><h3>Body Wave</h3><p>Soft flowing waves for a glamorous, effortless look.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Body Wave" aria-pressed="false" aria-label="Save Body Wave to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Body Wave">View Details</button><button class="enquire-btn" type="button" data-product="Body Wave">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Body Wave">Add to cart</button></div>
+          </article>
+          <article class="product-card" data-category="curly">
+            <div class="product-image product-curly" role="img" aria-label="Black model wearing a curly wig"></div>
+            <div class="product-info"><h3>Curly Glam</h3><p>Full curls with volume, texture and personality.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Curly Glam" aria-pressed="false" aria-label="Save Curly Glam to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Curly Glam">View Details</button><button class="enquire-btn" type="button" data-product="Curly Glam">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Curly Glam">Add to cart</button></div>
+          </article>
+          <article class="product-card" data-category="bob">
+            <div class="product-image product-bob" role="img" aria-label="Black model wearing a bob wig"></div>
+            <div class="product-info"><h3>Elegant Bob</h3><p>A chic, easy-to-style look for modern everyday beauty.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Elegant Bob" aria-pressed="false" aria-label="Save Elegant Bob to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Elegant Bob">View Details</button><button class="enquire-btn" type="button" data-product="Elegant Bob">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Elegant Bob">Add to cart</button></div>
+          </article>
+          <article class="product-card" data-category="luxe">
+            <div class="product-image product-luxe" role="img" aria-label="Black model showcasing a luxury wig style"></div>
+            <div class="product-info"><h3>Luxe Collection</h3><p>Elevated hair looks for celebrations and special moments.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Luxe Collection" aria-pressed="false" aria-label="Save Luxe Collection to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Luxe Collection">View Details</button><button class="enquire-btn" type="button" data-product="Luxe Collection">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Luxe Collection">Add to cart</button></div>
+          </article>
+          <article class="product-card" data-category="everyday">
+            <div class="product-image product-everyday" role="img" aria-label="Black model showcasing an everyday wig style"></div>
+            <div class="product-info"><h3>Everyday Beauty</h3><p>Comfortable, versatile styles for your daily routine.</p><div class="price-note">Price on request</div><button class="wishlist-btn" type="button" data-wishlist="Everyday Beauty" aria-pressed="false" aria-label="Save Everyday Beauty to favourites">♡ Save</button><button class="view-details-btn" type="button" data-details="Everyday Beauty">View Details</button><button class="enquire-btn" type="button" data-product="Everyday Beauty">Enquire / Order</button><button class="add-cart-btn" type="button" data-cart-product="Everyday Beauty">Add to cart</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-inner about-layout">
+        <div class="about-image" role="img" aria-label="Hair and beauty inspiration"></div>
+        <div class="about-copy">
+          <div class="eyebrow">About Conabrem</div>
+          <h2>Beauty that feels like you.</h2>
+          <p>At <strong>CONABREM ENTERPRISE</strong>, we believe the right hairstyle is more than a look — it is an expression of your personality. We are here to help you discover styles that bring out your confidence and make every day feel special.</p>
+          <div class="features"><div class="feature">STYLE FOR EVERY OCCASION</div><div class="feature">PERSONAL CUSTOMER CARE</div><div class="feature">BEAUTY & CONFIDENCE</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-care" id="customer-care">
+      <div class="section-inner">
+        <div class="section-heading"><div class="eyebrow">Customer care</div><h2>Shop with confidence</h2><p>Clear communication from your first enquiry through delivery. Stock, pricing and delivery fees are confirmed with you before you proceed.</p></div>
+        <div class="trust-grid">
+          <article class="trust-card"><span class="trust-symbol">✦</span><h3>Personal assistance</h3><p>Ask us about lengths, textures, colours and choosing a style that suits your needs.</p></article>
+          <article class="trust-card"><span class="trust-symbol">✓</span><h3>Confirm before paying</h3><p>We confirm availability, price and delivery arrangements directly with you.</p></article>
+          <article class="trust-card"><span class="trust-symbol">⌖</span><h3>Location-based delivery</h3><p>Delivery fees are confirmed based on your area and destination.</p></article>
+          <article class="trust-card"><span class="trust-symbol">♡</span><h3>Care after purchase</h3><p>Follow the care instructions suited to your wig's material and texture.</p></article>
+        </div>
+        <div class="care-faq-layout">
+          <div class="wig-care"><div class="eyebrow">Wig care tips</div><h3>Keep your style looking beautiful</h3><ul><li>Use care products appropriate for the wig's material.</li><li>Detangle gently, starting at the ends and working upward.</li><li>Store neatly on a stand or in a clean protective bag.</li><li>Follow supplier guidance before heat styling or washing.</li></ul></div>
+          <div class="faq"><div class="eyebrow">Frequently asked questions</div><h3>Good to know</h3>
+            <details><summary>How do I confirm the price?</summary><p>Send an enquiry through the product page or WhatsApp. We will confirm the current price and availability.</p></details>
+            <details><summary>Do you deliver?</summary><p>Delivery is available. Fees and arrangements depend on your location and will be confirmed before you proceed.</p></details>
+            <details><summary>Can I request a length or colour?</summary><p>Yes. Include your preferred length, texture and colour in the enquiry. Options depend on stock availability.</p></details>
+            <details><summary>When is my order confirmed?</summary><p>Your WhatsApp enquiry is not a confirmed order. We will confirm stock, pricing, payment and delivery arrangements with you directly.</p></details>
+          </div>
+        </div>
+        <div class="recent-enquiries" id="recentEnquiries" aria-live="polite">
+          <h3>Recent enquiry references on this device</h3>
+          <p class="recent-enquiries-note">These are saved only in this browser and are not a live order tracker.</p>
+          <ul id="recentEnquiryList"><li>No enquiry references saved on this device yet.</li></ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+      <div class="section-inner">
+        <div class="section-heading"><div class="eyebrow">Come say hello</div><h2>Let's find your next look</h2><p>Visit our shop or contact us for enquiries, orders and delivery options. Delivery charges are based on your location.</p></div>
+        <div class="contact-grid">
+          <div class="contact-box"><div class="icon">⌖</div><h3>Visit Us</h3><p>Mataheko – Dansoman, Accra<br><strong>Opposite Peace Clinic</strong></p></div>
+          <div class="contact-box"><div class="icon">☎</div><h3>Call / WhatsApp</h3><p><a href="tel:+233242551367">+233 24 255 1367</a><br><a href="tel:+233203128673">+233 20 312 8673</a></p></div>
+          <div class="contact-box"><div class="icon">✉</div><h3>Email Us</h3><p><a href="mailto:conabrementerprise@gmail.com">conabrementerprise@gmail.com</a></p></div>
+          <div class="contact-box"><div class="icon">🚚</div><h3>Delivery</h3><p>Delivery is available. Charges and arrangements are based on your location. Send us your location on WhatsApp to confirm your delivery fee.</p></div>
+        </div>
+        <div style="text-align:center;margin-top:38px"><a class="btn" href="https://wa.me/233242551367" target="_blank" rel="noopener">Message us on WhatsApp</a></div>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="details-backdrop" id="detailsModal" aria-hidden="true">
+    <div class="details-panel" role="dialog" aria-modal="true" aria-labelledby="detailsTitle">
+      <button class="details-close" id="closeDetails" type="button" aria-label="Close product details">&times;</button>
+      <div class="details-photo"><img id="detailsImage" src="" alt="Wig product photo"></div>
+      <div class="details-content"><div class="eyebrow">CONABREM ENTERPRISE COLLECTION</div><h2 id="detailsTitle"></h2><p id="detailsDescription"></p><div class="details-price">Price on request · Availability to be confirmed</div><p>Choose your preferred length, colour and other details when enquiring. Delivery charges depend on your location.</p><div class="details-actions"><button class="details-add-cart" id="detailsAddCart" type="button">Add to Cart</button><button class="details-enquire" id="detailsEnquire" type="button">Enquire on WhatsApp</button></div></div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="orderModal" aria-hidden="true">
+    <div class="order-modal" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+      <button class="modal-close" id="closeOrderModal" type="button" aria-label="Close order form">&times;</button>
+      <div class="eyebrow">Personalised enquiry</div>
+      <h2 id="orderTitle">Your hair, your choice.</h2>
+      <p class="modal-subtitle">Share your preferences. We'll confirm availability, price and delivery cost based on your location on WhatsApp.</p>
+      <form class="order-form" id="orderForm">
+        <div class="full"><label for="selectedWig">Selected wig style</label><input id="selectedWig" name="wig" readonly></div>
+        <div><label for="wigLength">Length (if available)</label><select id="wigLength" name="length"><option>Not sure yet</option><option>Short</option><option>10–14 inches</option><option>16–18 inches</option><option>20–22 inches</option><option>24–26 inches</option><option>28 inches and above</option></select></div>
+        <div><label for="wigTexture">Texture / preference</label><select id="wigTexture" name="texture"><option>Any / advise me</option><option>Straight</option><option>Body wave</option><option>Curly</option><option>Bob</option><option>Other</option></select></div>
+        <div><label for="wigColor">Preferred colour</label><input id="wigColor" name="color" placeholder="e.g. Natural black"></div>
+        <div><label for="wigQuantity">Quantity</label><select id="wigQuantity" name="quantity"><option>1</option><option>2</option><option>3</option><option>4+</option></select></div>
+        <div class="full"><label for="customerLocation">Your delivery location</label><input id="customerLocation" name="location" required placeholder="Area / town / landmark"></div>
+        <div class="full"><label for="orderNotes">Additional details (optional)</label><textarea id="orderNotes" name="notes" placeholder="Anything else you'd like us to know?"></textarea></div>
+        <button class="btn" type="submit">Send enquiry via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div class="wishlist-overlay" id="wishlistOverlay" aria-hidden="true">
+    <aside class="wishlist-panel" role="dialog" aria-modal="true" aria-labelledby="wishlistTitle">
+      <div class="wishlist-header"><div><h2 id="wishlistTitle">Your saved styles</h2><p>Keep favourites here while browsing.</p></div><button id="closeWishlist" type="button" class="wishlist-close" aria-label="Close saved styles">&times;</button></div>
+      <div id="wishlistItems"></div>
+    </aside>
+  </div>
+
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <aside class="cart-panel" role="dialog" aria-modal="true" aria-label="Shopping cart">
+      <div class="cart-header">
+        <div><h2>Your Cart</h2><p class="cart-header-subtitle">Review your selected styles before checkout.</p></div>
+        <button class="cart-close" id="closeCart" type="button" aria-label="Close cart">&times;</button>
+      </div>
+      <div id="cartItems"></div>
+      <section class="cart-summary" aria-live="polite">
+        <div class="summary-row"><span>Total items</span><strong id="cartTotalItems">0</strong></div>
+        <div class="summary-row"><span>Estimated total</span><strong class="price-pending">Price to be confirmed</strong></div>
+        <p class="cart-note">Product prices, availability and delivery charges will be confirmed by CONABREM ENTERPRISE.</p>
+      </section>
+      <section class="checkout-details" id="checkoutDetails" hidden>
+        <h3>Delivery details</h3>
+        <p class="checkout-intro">Enter your details and location so delivery charges can be confirmed based on where you are.</p>
+        <form id="checkoutForm">
+          <label for="checkoutName">Your name</label><input id="checkoutName" name="customerName" autocomplete="name" required placeholder="Full name">
+          <label for="checkoutPhone">Phone / WhatsApp number</label><input id="checkoutPhone" name="customerPhone" autocomplete="tel" required placeholder="e.g. 024 XXX XXXX">
+          <label for="checkoutArea">Area / town</label><input id="checkoutArea" name="area" required placeholder="e.g. Dansoman, Mataheko">
+          <label for="checkoutLandmark">Landmark or delivery directions</label><input id="checkoutLandmark" name="landmark" placeholder="Nearby landmark (optional)">
+          <label for="checkoutNotes">Additional notes</label><textarea id="checkoutNotes" name="checkoutNotes" rows="3" placeholder="Any special instructions (optional)"></textarea>
+          <button type="submit" id="reviewOrderButton" class="cart-checkout">Review order</button>
+        </form>
+      </section>
+      <section class="order-review" id="orderReview" hidden>
+        <h3>Order review</h3><div id="reviewContents"></div>
+        <p class="review-location" id="reviewLocation"></p>
+        <div class="review-actions"><button type="button" id="backToCheckout" class="cart-clear">Edit details</button><button type="button" id="sendWhatsAppOrder" class="cart-checkout">Confirm & send via WhatsApp</button></div>
+      </section>
+      <div class="cart-actions">
+        <button class="cart-checkout" id="checkoutCart" type="button">Continue to checkout</button>
+        <button class="cart-clear" id="clearCart" type="button">Clear cart</button>
+      </div>
+    </aside>
+  </div>
+
+  <footer>© <span id="year"></span> CONABREM ENTERPRISE. All rights reserved.Built by Ernest Botchway</footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
